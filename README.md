@@ -2,7 +2,9 @@
 
 ## Course 1 of GIT
 
-* Shell 
+* Shell
+* Otro punto
+ 
 ``` 
 python
 2+2=4
