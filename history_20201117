@@ -172,3 +172,123 @@ pwd
 cd Documents/datascience/gitClass
 ls -lha
 cp $HISTFILE .
+ls -lah
+rsync --help
+\:q
+pwd
+ls -lah
+git status
+mv .history history_20201117
+pwd
+git status
+git add --all
+git status
+cd ..
+mkdir gitFolder
+mv gitClass gitFolder
+ls -lha
+cd gitFolder
+cd gitClass
+git status
+git commit -m 'Added history 20201117'
+git push origin master
+history -h
+history -help
+history --help
+history --h
+man history
+history --i
+history --f
+cd
+ls -lah
+ls -lrt
+cd Data
+cd shell
+ls -lah
+wc -l Finn.txt
+wc -l Text_example.txt
+echo "que pasa, como estas" | wc -w
+echo "que pasa, como estas" | wc -l
+echo "que pasa, como estas" | wc -c
+echo "hola" | wc -c
+echo "hola" | wc -w
+echo "hola" | wc -b
+pwd
+ls -lah
+caat Text_example.txt | wc 
+cat Text_example.txt | wc 
+cat Text_example.txt | wc -l
+tail -c 1k
+tail -c 1k Finn.txt
+tail -h
+tail --help
+tail -c 1k Finn.txt | wc
+tail -c 1K Finn.txt | wc
+tail -c 1K ~/Data/opentraveldata/optd_aircraft.csv
+tail -c 1K ~/Data/opentraveldata/optd_aircraft.csv | wc
+tail -c -1k ~/Data/opentraveldata/optd_aircraft.csv | wc
+tail -c 1k Finn.txt | wc
+tail --help
+tail -c 1K ~/Data/opentraveldata/optd_aircraft.csv | wc
+tail -c 1k ~/Data/opentraveldata/optd_aircraft.csv | wc
+pwd
+ls -lah 
+wc -l < Finn.txt
+pwd
+ls -lah
+cd ..
+pwd
+ls -lah
+cd opentraveldata
+ls -Sarl
+ls -Sarl | tail -1
+ls -Sarl | tail -1 > largest_file.txt
+ls -lah
+cat largest_file.txt
+tail -5 ~/Data/shell/Finn.txt| wc -w
+tail -5 ~/Data/shell/Finn.txt
+head -5 ~/Data/shell/Finn.txt | wc -w
+head -5 ~/Data/shell/Finn.txt 
+head -5 ~/Data/shell/Finn.txt | wc -w
+pwd
+ls -lah
+cd ~/Data/shell
+ls -lah
+cat Text_example.txt
+cat Text_example.txt | head -3
+head --help
+cat Text_example.txt | head -n
+cat Text_example.txt | head -v
+head -3 -v Text_example.txt
+head -v Text_example.txt
+head --help
+head -v Text_example.txt
+cat Text_example.txt| head -n
+cat Text_example.txt| head -n -3
+head -3 | cat -n
+head -3 Text_example.txt | cat -n
+help cat
+cat --help
+head -3 Text_example.txt | cat -n
+cat -n Text_example.txt > ~/Text_example_with_number.txt
+cat ~/Text_example_with_number.txt
+cat Text_example.txt >> cat Text_example.txt > TextDoble.txt
+cat TextDoble.txt
+	rsync --help
+cat Text_example.txt | wc 
+cat README.md
+"# This file is created by $USER on:$(date)" > ~/ficheroDate.txt
+echo "# This file is created by $USER on:$(date)" > ~/ficheroDate.txt
+cat ~/ficheroDate.txt
+head -20 $HISTFILE > ~/ficherolast20commands.txt 
+cat ~/ficherolast20commands.txt
+head --help
+cd
+cd Documents/datascience
+pwd
+ls -lah
+cd gitFolder
+cd gitClass
+pwd
+git status
+cp $HISTFILE .
